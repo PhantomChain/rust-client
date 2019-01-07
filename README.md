@@ -1,14 +1,10 @@
-# Ark Rust - Client
+# PHANTOM Rust - Client
 
-<p align="center">
-    <img src="./banner.png" />
-</p>
+> A simple Rust API client for the PHANTOM blockchain.
 
-> A simple Rust API client for the Ark blockchain.
-
-[![Build Status](https://badgen.now.sh/travis/ArkEcosystem/rust-client/master)](https://travis-ci.org/ArkEcosystem/rust-client)
-[![Codecov](https://badgen.now.sh/codecov/c/github/arkecosystem/rust-client)](https://codecov.io/gh/arkecosystem/rust-client)
-[![Latest Version](https://badgen.now.sh/github/release/ArkEcosystem/rust-client)](https://github.com/ArkEcosystem/rust-client/releases)
+[![Build Status](https://badgen.now.sh/travis/PhantomChain/rust-client/master)](https://travis-ci.org/PhantomChain/rust-client)
+[![Codecov](https://badgen.now.sh/codecov/c/github/phantomchain/rust-client)](https://codecov.io/gh/phantomchain/rust-client)
+[![Latest Version](https://badgen.now.sh/github/release/PhantomChain/rust-client)](https://github.com/PhantomChain/rust-client/releases)
 [![License: MIT](https://badgen.now.sh/badge/license/MIT/green)](https://opensource.org/licenses/MIT)
 
 ## Installation
@@ -17,11 +13,11 @@ This crate uses [Reqwest](https://crates.io/crates/reqwest), which, in Linux req
 
 ## Documentation
 
-You can find installation instructions and detailed instructions on how to use this package at the [dedicated documentation site](https://docs.ark.io/sdk/clients/rust.html).
+You can find installation instructions and detailed instructions on how to use this package at the [dedicated documentation site](https://docs.phantom.org/sdk/clients/rust.html).
 
 ## Security
 
-If you discover a security vulnerability within this package, please send an e-mail to security@ark.io. All security vulnerabilities will be promptly addressed.
+If you discover a security vulnerability within this package, please send an e-mail to security@phantom.org. All security vulnerabilities will be promptly addressed.
 
 ## Credits
 
@@ -32,3 +28,5 @@ If you discover a security vulnerability within this package, please send an e-m
 ## License
 
 [MIT](LICENSE) © [ArkEcosystem](https://ark.io)
+
+[MIT](LICENSE) © [Phantom](https://phantom.org)
