@@ -27,4 +27,4 @@ If you discover a security vulnerability within this package, please send an e-m
 
 ## License
 
-[MIT](LICENSE) © [Phantom](https://phantom.org)
+[MIT](LICENSE) © [PhantomChain](https://phantom.org)
