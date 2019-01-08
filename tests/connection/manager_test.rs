@@ -1,6 +1,6 @@
-extern crate arkecosystem_client;
+extern crate phantomchain_client;
 
-use arkecosystem_client::{Connection, Manager};
+use phantomchain_client::{Connection, Manager};
 
 #[test]
 fn test_create_connection() {

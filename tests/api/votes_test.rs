@@ -1,7 +1,7 @@
 use serde_json::from_str;
 use *;
 
-use arkecosystem_client::api::models::{Asset, Transaction};
+use phantomchain_client::api::models::{Asset, Transaction};
 
 #[test]
 fn test_all() {

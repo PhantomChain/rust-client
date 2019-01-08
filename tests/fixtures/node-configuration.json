@@ -1,14 +1,14 @@
 {
   "data": {
-    "nethash": "2a44f340d76ffc3df204c5f38cd355b7496c9065a1ade2ef92071436bd72e867",
-    "token": "DARK",
-    "symbol": "DѦ",
-    "explorer": "https://dexplorer.ark.io",
+    "nethash": "6e84d08bd299ed97c212c886c98a57e36545c8f5d645ca7eeae63a8bd62d8988",
+    "token": "DXPH",
+    "symbol": "Dⓟ",
+    "explorer": "https://dexplorer.phantom.org",
     "version": 30,
     "ports": {
-      "@arkecosystem/core-p2p": 4002,
-      "@arkecosystem/core-api": 4003,
-      "@arkecosystem/core-graphql": 4005
+      "@phantomchain/core-p2p": 4002,
+      "@phantomchain/core-api": 4003,
+      "@phantomchain/core-graphql": 4005
     },
     "constants": {
       "height": 21600,

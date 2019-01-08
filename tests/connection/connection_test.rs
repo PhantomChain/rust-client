@@ -1,6 +1,6 @@
-extern crate arkecosystem_client;
+extern crate phantomchain_client;
 
-use arkecosystem_client::connection::Connection;
+use phantomchain_client::connection::Connection;
 
 const MOCK_HOST: &str = "http://127.0.0.1:1234/api/";
 

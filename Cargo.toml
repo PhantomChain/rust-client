@@ -1,12 +1,12 @@
 [package]
-name = "arkecosystem-client"
+name = "phantomchain-client"
 version = "1.0.0"
 authors = ["Joshua Noack <joshua@ark.io>, Juan A. Martín <juan@ark.io>"]
-description = "A simple Rust API client for the ARK Blockchain."
+description = "A simple Rust API client for the PHANTOM Blockchain."
 license = "MIT"
 
 [lib]
-name = "arkecosystem_client"
+name = "phantomchain_client"
 path = "src/lib.rs"
 doctest = false
 

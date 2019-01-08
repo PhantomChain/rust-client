@@ -1,7 +1,7 @@
 use serde_json::{from_str, Value};
 use *;
 
-use arkecosystem_client::api::models::{FeeSchema, FeeStatistics};
+use phantomchain_client::api::models::{FeeSchema, FeeStatistics};
 
 #[test]
 fn test_status() {
@@ -78,9 +78,9 @@ fn test_configuration() {
             expected["data"]["version"].as_u64().unwrap() as u32
         );
 
-        assert!(actual.data.ports.contains_key("@arkecosystem/core-p2p"));
-        assert!(actual.data.ports.contains_key("@arkecosystem/core-api"));
-        assert!(actual.data.ports.contains_key("@arkecosystem/core-graphql"));
+        assert!(actual.data.ports.contains_key("@phantomchain/core-p2p"));
+        assert!(actual.data.ports.contains_key("@phantomchain/core-api"));
+        assert!(actual.data.ports.contains_key("@phantomchain/core-graphql"));
 
         assert_eq!(
             actual.data.constants.height,

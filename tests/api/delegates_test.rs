@@ -2,7 +2,7 @@ use serde_json::from_str;
 use std::collections::HashMap;
 use *;
 
-use arkecosystem_client::api::models::Delegate;
+use phantomchain_client::api::models::Delegate;
 
 #[test]
 fn test_all() {

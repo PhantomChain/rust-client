@@ -1,4 +1,4 @@
-extern crate arkecosystem_client;
+extern crate phantomchain_client;
 extern crate mockito;
 extern crate serde_json;
 #[macro_use]
@@ -12,8 +12,8 @@ use serde_json::Value;
 use std::fs::File;
 use std::io::prelude::*;
 
-use arkecosystem_client::api::models::{Block, Meta, Timestamp, Transaction, Wallet};
-use arkecosystem_client::Connection;
+use phantomchain_client::api::models::{Block, Meta, Timestamp, Transaction, Wallet};
+use phantomchain_client::Connection;
 
 const MOCK_HOST: &str = "http://127.0.0.1:1234/api/";
 

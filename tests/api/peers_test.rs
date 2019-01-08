@@ -1,7 +1,7 @@
 use serde_json::{from_str, Value};
 use *;
 
-use arkecosystem_client::api::models::Peer;
+use phantomchain_client::api::models::Peer;
 
 #[test]
 fn test_all() {

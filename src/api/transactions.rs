@@ -79,10 +79,10 @@ impl Transactions {
     /// # Example
     /// ```
     /// # extern crate serde_json;
-    /// # extern crate arkecosystem_client;
+    /// # extern crate phantomchain_client;
     ///
     /// # use serde_json::to_string_pretty;
-    /// # use arkecosystem_client::connection::Connection;
+    /// # use phantomchain_client::connection::Connection;
     ///
     /// # fn main() {
     ///   # let client = Connection::new("http://95.179.170.23:4003/api/");
@@ -99,10 +99,10 @@ impl Transactions {
     /// # Example
     /// ```
     /// # extern crate serde_json;
-    /// # extern crate arkecosystem_client;
+    /// # extern crate phantomchain_client;
     ///
     /// # use serde_json::to_string_pretty;
-    /// # use arkecosystem_client::connection::Connection;
+    /// # use phantomchain_client::connection::Connection;
     ///
     /// # fn main() {
     ///   # let client = Connection::new("http://167.114.43.38:4003/api/");
